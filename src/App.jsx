@@ -36,9 +36,9 @@ function App() {
           </div>
           <div className="projects-container" id="projects">
             <h3>PROJECTS</h3>
-            {projects.map((project) => (
+            {projects.map((project, index) => (
               <Project
-                key={project.frameworks}
+                key={index}
                 projectName={project.projectName}
                 description={project.description}
                 frameworks={project.frameworks}

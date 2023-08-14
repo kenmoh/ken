@@ -43,19 +43,19 @@ export const projects = [
 export const techs = [
   {
     name: "Python",
-    icon: "/src/assets/python.png",
+    icon: "/public/assets/python.png",
   },
   {
     name: "JavaScript",
-    icon: "/src/assets/JS.png",
+    icon: "/public/assets/JS.png",
   },
   {
     name: "React Native",
-    icon: "/src/assets/React Native.png",
+    icon: "/public/assets/ReactNative.png",
   },
   {
     name: "Docker",
-    icon: "/src/assets/Docker.png",
+    icon: "/public/assets/Docker.png",
   },
 ];
 export const socials = [

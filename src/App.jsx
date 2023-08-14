@@ -5,9 +5,7 @@ import Project from "./components/Project";
 import Social from "./components/Social";
 import Tech from "./components/Tech";
 import { techs, projects, socials } from "./constants";
-
-const python = "/src/assets/python.png";
-const rn = ".assets/React Native.png";
+const python = "../src/assets/python.png";
 const reservation = ".assets/reservation.jpg";
 const js = "./assets/JS.png";
 const docker = "./assets/Docker.png";
@@ -35,10 +33,9 @@ function App() {
           <div className="tech-container" id="technologies">
             <h3>TECHNOLOGIES</h3>
             <div className="technologies">
-              <Tech iconUrl={python} iconName={"Python"} />
-              <Tech iconUrl={js} iconName={"JavaScript"} />
-              <Tech iconUrl={rn} iconName={"React Native"} />
-              <Tech iconUrl={docker} iconName={"Docker"} />
+              {techs.map((tech, index) => (
+                <Tech key={index} iconUrl={tech.icon} iconName={tech.name} />
+              ))}
             </div>
           </div>
           <div className="projects-container" id="projects">

@@ -46,7 +46,7 @@ export const techs = [
     icon: "/public/assets/python.png",
   },
   {
-    name: "JavaScrip",
+    name: "JavaScript",
     icon: "/public/assets/JS.png",
   },
   {

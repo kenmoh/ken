@@ -6,8 +6,8 @@ import Social from "./components/Social";
 import Tech from "./components/Tech";
 import { techs, projects, socials } from "./constants";
 
-const python = "../src/assets/python.png";
-const rn = "../src/assets/React Native.png";
+const python = "./assets/python.png";
+const rn = "./assets/React Native.png";
 const reservation = ".assets/reservation.jpg";
 const js = "./assets/JS.png";
 const docker = "./assets/Docker.png";
